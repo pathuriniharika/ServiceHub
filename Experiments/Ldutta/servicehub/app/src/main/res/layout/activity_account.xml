@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <!-- User Profile Section -->
+    <TextView
+        android:id="@+id/UserProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Profile"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <!-- Settings Section -->
+    <TextView
+        android:id="@+id/Settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <!-- Payment Section -->
+    <TextView
+        android:id="@+id/Payment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Payment"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <!-- Notifications Section -->
+    <TextView
+        android:id="@+id/Notifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notifications"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <!-- Customer Care Section -->
+    <TextView
+        android:id="@+id/CustomerCare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Customer Care"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <!-- FAQ Section -->
+    <TextView
+        android:id="@+id/FAQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FAQ"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:background="?android:attr/selectableItemBackground"/>
+
+    <!-- Toggle Navigation Button -->
+    <Button
+        android:id="@+id/Navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toggle Navigation"
+        android:background="?android:attr/selectableItemBackground"
+        android:onClick="onToggleNavigationClick"/>
+</LinearLayout>

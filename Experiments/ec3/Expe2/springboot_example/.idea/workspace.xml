@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4e062696-9b96-4ecf-88d7-8088c957212b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Ldutta/two_screen_counter/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ldutta/two_screen_counter/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Ldutta/two_screen_counter/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ldutta/two_screen_counter/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.log.2023-09-21.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.log.2023-09-21.0281178975618799.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.log.2023-09-22.0.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onetomany/Laptops/Laptop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onetomany/Laptops/LaptopController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onetomany/Laptops/LaptopRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onetomany/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onetomany/Phones/Phone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onetomany/Phones/PhoneController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onetomany/Phones/PhoneRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onetomany/Users/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onetomany/Users/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onetomany/Users/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onetoone/Laptops/LaptopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/onetoone/Laptops/LaptopController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onetoone/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/onetoone/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onetoone/Users/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/onetoone/Users/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/onetoone/Users/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/onetoone/Users/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/onetomany/Laptops/Laptop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/onetomany/Laptops/LaptopController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/onetomany/Laptops/LaptopRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/onetomany/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/onetomany/Phones/Phone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/onetomany/Phones/PhoneController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/onetomany/Phones/PhoneRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/onetomany/Users/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/onetomany/Users/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/onetomany/Users/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/onetoone/Laptops/Laptop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/onetoone/Laptops/LaptopController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/onetoone/Laptops/LaptopRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/onetoone/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/onetoone/Users/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/onetoone/Users/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/onetoone/Users/UserRepository.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2WMiBjysxbhJANfiH9uHlVB6N6f" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "adding__tutor__repository",
+    "last_opened_file_path": "C:/Users/ec3/Desktop/309/ta_122/Experiments/ec3/Expe3/springboot_example",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e062696-9b96-4ecf-88d7-8088c957212b" name="Changes" comment="" />
+      <created>1696548718284</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696548718284</updated>
+      <workItem from="1696548720493" duration="102000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

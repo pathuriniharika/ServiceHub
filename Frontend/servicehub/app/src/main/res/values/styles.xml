@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DatePickerStyle">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">160dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="MyRatingBar" parent="@android:style/Widget.RatingBar">
+
+    </style>
+
+    <style name="nightModeSwitch">
+
+    </style>
+
+    <style name="notificationSwitch">
+
+    </style>
+
+    <style name="privateAccountSwitch">
+
+    </style>
+
+
+
+
+</resources>

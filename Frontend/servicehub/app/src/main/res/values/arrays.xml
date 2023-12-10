@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="time_options">
+        <item>1:00 AM</item>
+        <item>2:00 AM</item>
+        <item>3:00 AM</item>
+        <item>11:00 PM</item>
+        <item>12:00 AM (Midnight)</item>
+    </array>
+
+
+    <string-array name="user_types">
+        <item>SEEKER</item>
+        <item>PROVIDER</item>
+    </string-array>
+
+</resources>

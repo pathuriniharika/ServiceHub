@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".MainActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <!-- Content Layout -->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/contentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="#219ebc">
+
+        <!-- User Input -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:layout_height="50dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:hint="Username"
+                android:textSize="20dp"
+                android:id="@+id/username"
+                android:background="@color/white"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Connect"
+                android:id="@+id/connect"
+                android:background="@color/black"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <!-- Conversation ScrollView -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/msgdisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Conversation will appear here:\n"
+                android:textSize="20dp" />
+
+        </ScrollView>
+
+        <!-- User Message Input -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <EditText
+                android:layout_height="50dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:hint="Message"
+                android:textSize="20dp"
+                android:id="@+id/msg"
+                android:background="@color/white"
+                android:padding="10dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send"
+                android:id="@+id/send"
+                android:background="@color/black"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <!-- End Conversation Button (in a button format) -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End Conversation"
+            android:id="@+id/endConversation"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@color/blue"
+            android:textColor="@color/white" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <!-- Navigation Bar at the Bottom -->
+    <LinearLayout
+        android:id="@+id/navigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black">
+
+        <!-- Add your navigation buttons here -->
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".MainActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/ChatActivity">
+
+    <!-- Content Layout -->
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/contentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@color/grey">
+
+        <!-- Conversation ScrollView -->
+
+        <ScrollView
+            android:id="@+id/msgScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="20dp">
+            <!-- Existing ScrollView contents -->
+
+            <TextView
+                android:id="@+id/msgdisplay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:scrollbars="vertical"
+                android:isScrollContainer="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/appointmentButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:text="I want to book a service appointment"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/representativeButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:text="Can I speak to a representative?"
+                android:textColor="@color/white" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="What are your business hours?"
+                android:id="@+id/businessButton"
+                android:background="@color/black"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+        <!-- User Message Input -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/msg"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:hint="Message"
+                android:padding="10dp"
+                android:textSize="20dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send"
+                android:id="@+id/send"
+                android:background="@color/black"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <!-- Character Count -->
+        <TextView
+            android:id="@+id/charCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="0/1000"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:layout_below="@id/msg"
+            android:layout_alignStart="@id/msg"
+            android:layout_alignEnd="@id/msg" />
+
+        <!-- Horizontal LinearLayout for End Conversation and Bold buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp">
+
+            <!-- End Conversation Button -->
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="End Conversation"
+                android:id="@+id/endConversation"
+                android:layout_gravity="center"
+                android:background="@color/blue"
+                android:textColor="@color/white" />
+
+            <!-- Add space between buttons (margin) -->
+            <Space
+                android:layout_width="16dp"
+                android:layout_height="1dp" />
+
+            <!-- Bold Button -->
+            <Button
+                android:id="@+id/italicButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/black"
+                android:text="Italic"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/connectButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="."
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <!-- Navigation Bar at the Bottom -->
+    <LinearLayout
+        android:id="@+id/navigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black">
+
+        <!-- Add your navigation buttons here -->
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Service Name Input -->
+            <EditText
+                android:id="@+id/editTextServiceName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Service Name"
+                android:inputType="textCapWords"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <!-- Service Description Input -->
+            <EditText
+                android:id="@+id/editTextServiceDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Service Description"
+                android:inputType="textMultiLine"
+                android:lines="4"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <!-- Available Time Input -->
+            <EditText
+                android:id="@+id/editTextAvailableTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Available Time"
+                android:inputType="text"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"/>
+
+            <!-- Service Attribute Dropdown (Spinner) -->
+            <Spinner
+                android:id="@+id/spinnerServiceAttribute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/buttonListService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List Service"
+        android:layout_below="@+id/buttonBack"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_below="@id/cardView"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>

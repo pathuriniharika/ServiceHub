@@ -1,0 +1,117 @@
+<!-- activity_main.xml -->
+<!--<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#caf0f8">
+
+    <TextView
+        android:id="@+id/serviceTypeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type of service:"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/serviceType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the type of service"
+        android:inputType="text"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <DatePicker
+            android:id="@+id/Date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:headerBackground="@android:color/transparent"
+            android:calendarTextColor="@android:color/black" />
+
+        <TimePicker
+            android:id="@+id/Time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:timePickerMode="spinner"
+            android:headerBackground="@android:color/transparent" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bookSlot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book Slot" />
+</LinearLayout> -->
+
+
+<!-- activity_main.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#caf0f8">
+
+    <TextView
+        android:id="@+id/serviceTypeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type of service:"
+        android:textStyle="bold"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/serviceType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the type of service"
+        android:inputType="text"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <DatePicker
+            android:id="@+id/Date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:headerBackground="@android:color/transparent"
+            android:calendarTextColor="@android:color/black" />
+
+        <TimePicker
+            android:id="@+id/Time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:timePickerMode="spinner"
+            android:headerBackground="@android:color/transparent" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bookSlot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book Slot" />
+
+    <Button
+        android:id="@+id/bookingHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Booking History" />
+</LinearLayout>
+

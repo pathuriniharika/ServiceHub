@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/picc">
+
+    <!-- Button with Image 1 -->
+
+    <!-- Button with Image 2 -->
+
+    <!-- Button with Image 3 -->
+
+    <ImageButton
+        android:id="@+id/buttonImage1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/homese"
+        android:backgroundTint="#AAFFFFFF"
+        android:padding="10dp"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:id="@+id/buttonImage2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/buttonImage1"
+        android:layout_marginTop="66dp"
+        android:background="@drawable/tutorservice"
+        android:backgroundTint="#AAFFFFFF"
+        android:padding="10dp"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:id="@+id/buttonImage3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/buttonImage2"
+        android:layout_marginTop="87dp"
+        android:background="@drawable/carservice"
+        android:backgroundTint="#AAFFFFFF"
+        android:padding="10dp"
+        android:scaleType="fitCenter" />
+
+</RelativeLayout>
